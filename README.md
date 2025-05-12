@@ -35,6 +35,9 @@ If yes, we save that path.
 
 Backtracking is used to explore all possible root-to-leaf paths.
 
+---
+
+
 🧠 Algorithm
 Traverse the tree recursively using DFS.
 
@@ -47,6 +50,8 @@ Check if it's a leaf and if the path sum equals targetSum.
 If valid, store the path in the result.
 
 Backtrack and continue the search.
+
+---
 
 💻 Code Explanation
 hlo() is the recursive helper function that:
@@ -66,6 +71,8 @@ pathSum() is the main function that:
 Handles the edge case of a null root with target sum 0.
 
 Calls the helper and returns all valid paths.
+
+---
 
 🛠️ Technologies Used
 Language: C++
